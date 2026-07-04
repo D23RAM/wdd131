@@ -1,19 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Dynamic Web Fundamentals – Dija Ramsoedit</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals course homepage for Dija Ramsoedit for class.">
+    <meta name="author" content="Dija Ramsoedit">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng&id=p31#p31" target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-        <title>WDD 1331</title>
-    </head>
+    <main>
+        <h1>Dija Ramsoedit</h1>
+        
+        <div class="grid-container">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-content bio-layout">
+                    <p>My name is dija Ramsoedit, i am originally from Paramaribo Suriname. Im currently pursuing a degree in machine learning and economics. My hobbies include Robotics, baking, and reading.</p>
+                    <img src="images/profile.jpg" alt="Dija Ramsoedit profile" width="150" height="200">
+                </div>
+                
+                <h3 class="sub-heading">Paramaribo, Suriname</h3>
+                <hr>
+                
+                <div class="card-content flag-layout">
+                    <figure>
+                        <img src="images/Flag-Suriname.jpg.webp" alt="Official Flag of Suriname" width="150" height="100">
+                        <figcaption>Official Suriname</figcaption>
+                    </figure>
+                    <p>Suriname is a small but incredibly diverse country on the northeastern coast of South America, known for its rich mix of cultures. Its historic inner city is a UNESCO World Heritage Site, filled with Dutch colonial wooden architecture. Over 90% of Suriname is covered by rainforest, making it one of the greenest and most biodiverse countries on Earth.</p>
+                </div>
+            </section>
 
-    <body>
-        <h1>WDD 131 - Dija Ramsoedit</h1>
-    </body>
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <div class="card-content resources-layout">
+                    <ul>
+                        <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                        <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                        <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                        <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                        <li><a href="https://picsum.photos" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
 
-
-
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🇸🇷👩🏻‍💻 Dija Ramsoedit 👩🏻‍💻🇸🇷</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
 </html>
-
-
-
