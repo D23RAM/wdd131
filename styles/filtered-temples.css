@@ -1,0 +1,96 @@
+/* Base Page Setup */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Page Header & Navigation Styles */
+header {
+    max-width: 1200px;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: #3b82f6;
+    text-decoration: none;
+    margin-right: 1.25rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Gallery Grid Layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Gallery Card Design */
+.gallery figure {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 0; /* Removing inner padding allows the image to span edge-to-edge if desired */
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Subtle Hover Effect */
+.gallery figure:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.12);
+}
+
+/* Image at top of Card */
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card Content Container (Put your text inside a div/figcaption if possible) */
+.gallery figcaption,
+.gallery .card-body {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.gallery h2 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0 0 0.75rem 0;
+}
+
+.gallery p {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+    color: #475569;
+}
+
+.gallery p strong {
+    color: #1e293b;
+}
