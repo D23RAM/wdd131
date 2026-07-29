@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblem representing Narasimha: a lion's mane surrounding a face, with claws">
+  <circle cx="100" cy="100" r="94" fill="#FFF8E7" stroke="#F4C542" stroke-width="4"/>
+  <g fill="#EF7F31">
+    <path d="M100 40 L108 62 L92 62 Z"/>
+    <path d="M100 160 L108 138 L92 138 Z"/>
+    <path d="M40 100 L62 92 L62 108 Z"/>
+    <path d="M160 100 L138 92 L138 108 Z"/>
+    <path d="M60 60 L80 72 L68 80 Z"/>
+    <path d="M140 60 L120 72 L132 80 Z"/>
+    <path d="M60 140 L80 128 L68 120 Z"/>
+    <path d="M140 140 L120 128 L132 120 Z"/>
+  </g>
+  <circle cx="100" cy="100" r="34" fill="#FE7D9C"/>
+  <path d="M88 96 L94 104 M112 96 L106 104" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+</svg>

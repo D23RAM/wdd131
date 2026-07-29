@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festivals &amp; Scriptures | DharmaVerse</title>
+  <meta name="description" content="Explore Hindu festivals celebrated throughout the year and read teachings from the Bhagavad Gita.">
+  <meta name="author" content="Dija S. Ramsoedit">
+  <link rel="icon" href="images/om.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-bar container" aria-label="Primary">
+      <a class="logo" href="index.html">🌸 DharmaVerse</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰<span class="visually-hidden">Toggle menu</span></button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gods.html">Gods &amp; Goddesses</a></li>
+        <li><a href="festivals.html" aria-current="page">Festivals &amp; Scriptures</a></li>
+        <li><a href="quiz.html">Quiz &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="container">
+      <h1>Festivals &amp; Scriptures</h1>
+      <p>
+        The Hindu calendar is full of celebration, from nights of dance to
+        mornings of quiet reflection. Search or filter the festivals below
+        by name, season, or theme.
+      </p>
+
+      <div class="filter-bar">
+        <label for="festival-search" class="visually-hidden">Search festivals</label>
+        <input type="search" id="festival-search" placeholder="Search festivals, e.g. &quot;light&quot; or &quot;March&quot;">
+      </div>
+
+      <div class="card-grid" id="festival-grid">
+        <!-- Filled by scripts.js -->
+      </div>
+    </section>
+
+    <img class="lotus-divider" src="images/lotus.svg" alt="" loading="lazy" width="90" height="45">
+
+    <section class="container">
+      <h2 class="section-title">Teachings from the Bhagavad Gita</h2>
+      <p style="text-align:center;">
+        The Bhagavad Gita is a conversation between the prince Arjuna and
+        Krishna, offering guidance on duty, action, and inner peace. Each
+        teaching below is paraphrased for clarity; see the
+        <a href="references.html">references page</a> for the source translation.
+      </p>
+      <div class="quote-box" id="quote-box" aria-live="polite">
+        <!-- Filled by scripts.js -->
+      </div>
+      <p style="text-align:center; margin-top:1rem;">
+        <button class="btn secondary" id="next-quote-btn" type="button">Show another teaching</button>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <img src="images/lotus.svg" alt="" loading="lazy" width="60" height="30">
+      <p>DharmaVerse &mdash; an educational project for BYU-Idaho WDD 131</p>
+      <p><a href="references.html">References &amp; image credits</a></p>
+      <p>&copy; <span id="year"></span> Dija S. Ramsoedit</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

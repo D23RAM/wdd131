@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblem representing Vishnu: a conch shell and a discus">
+  <circle cx="100" cy="100" r="94" fill="#FFF8E7" stroke="#F4C542" stroke-width="4"/>
+  <path d="M65 70 Q55 110 80 145 Q95 160 105 140 Q85 130 82 105 Q80 85 92 68 Q78 60 65 70 Z" fill="#EF7F31"/>
+  <circle cx="132" cy="118" r="30" fill="none" stroke="#FE7D9C" stroke-width="5"/>
+  <g stroke="#FE7D9C" stroke-width="4" stroke-linecap="round">
+    <line x1="132" y1="88" x2="132" y2="98"/>
+    <line x1="132" y1="138" x2="132" y2="148"/>
+    <line x1="102" y1="118" x2="112" y2="118"/>
+    <line x1="152" y1="118" x2="162" y2="118"/>
+    <line x1="111" y1="97" x2="118" y2="104"/>
+    <line x1="146" y1="132" x2="153" y2="139"/>
+    <line x1="153" y1="97" x2="146" y2="104"/>
+    <line x1="118" y1="132" x2="111" y2="139"/>
+  </g>
+</svg>

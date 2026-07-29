@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblem representing Brahma: four small faces around a lotus, with his swan vehicle">
+  <circle cx="100" cy="100" r="94" fill="#FFF8E7" stroke="#F4C542" stroke-width="4"/>
+  <g fill="#EF7F31">
+    <circle cx="100" cy="60" r="13"/>
+    <circle cx="140" cy="100" r="13"/>
+    <circle cx="100" cy="140" r="13"/>
+    <circle cx="60" cy="100" r="13"/>
+  </g>
+  <circle cx="100" cy="100" r="16" fill="#FE7D9C"/>
+  <path d="M70 155 Q90 140 100 155 Q110 140 130 155 Q120 168 100 168 Q80 168 70 155 Z" fill="#F4C542"/>
+</svg>

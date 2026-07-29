@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblem representing Lakshmi: a lotus flower with coins">
+  <circle cx="100" cy="100" r="94" fill="#FFF8E7" stroke="#F4C542" stroke-width="4"/>
+  <g fill="#FE7D9C">
+    <path d="M100 60 C112 80 112 100 100 118 C88 100 88 80 100 60 Z"/>
+    <path d="M100 60 C112 80 112 100 100 118 C88 100 88 80 100 60 Z" transform="rotate(45 100 100)"/>
+    <path d="M100 60 C112 80 112 100 100 118 C88 100 88 80 100 60 Z" transform="rotate(90 100 100)"/>
+    <path d="M100 60 C112 80 112 100 100 118 C88 100 88 80 100 60 Z" transform="rotate(135 100 100)"/>
+  </g>
+  <circle cx="100" cy="100" r="14" fill="#F4C542"/>
+  <circle cx="76" cy="150" r="14" fill="none" stroke="#EF7F31" stroke-width="4"/>
+  <circle cx="124" cy="150" r="14" fill="none" stroke="#EF7F31" stroke-width="4"/>
+</svg>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gods &amp; Goddesses | DharmaVerse</title>
+  <meta name="description" content="Learn about six major Hindu deities including Ganesha, Shiva, Vishnu, Lakshmi, Krishna, and Durga, and save your favorite.">
+  <meta name="author" content="Dija S. Ramsoedit">
+  <link rel="icon" href="images/om.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-bar container" aria-label="Primary">
+      <a class="logo" href="index.html">🌸 DharmaVerse</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰<span class="visually-hidden">Toggle menu</span></button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gods.html" aria-current="page">Gods &amp; Goddesses</a></li>
+        <li><a href="festivals.html">Festivals &amp; Scriptures</a></li>
+        <li><a href="quiz.html">Quiz &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="container">
+      <h1>Gods &amp; Goddesses</h1>
+      <p>
+        Hindu tradition describes a vast family of deities, each
+        representing different qualities of the same underlying divine
+        reality. This page starts with the Trimurti, the three central
+        roles of creation, preservation, and destruction, then explores
+        three of Vishnu's avatars, and finishes with a few other widely
+        beloved deities. Tap "Mark as favorite" to save the one that
+        speaks to you most; your choice is remembered the next time you
+        visit.
+      </p>
+      <div id="favorite-summary" aria-live="polite"></div>
+    </section>
+
+    <section class="container" id="deity-grid">
+      <!-- Filled by scripts.js -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <img src="images/lotus.svg" alt="" loading="lazy" width="60" height="30">
+      <p>DharmaVerse &mdash; an educational project for BYU-Idaho WDD 131</p>
+      <p><a href="references.html">References &amp; image credits</a></p>
+      <p>&copy; <span id="year"></span> Dija S. Ramsoedit</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DharmaVerse | Discover Hinduism</title>
+  <meta name="description" content="DharmaVerse is an educational website exploring Hindu beliefs, deities, festivals, and scriptures for curious learners of all backgrounds.">
+  <meta name="author" content="Dija S. Ramsoedit">
+  <link rel="icon" href="images/om.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-bar container" aria-label="Primary">
+      <a class="logo" href="index.html">🌸 DharmaVerse</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰<span class="visually-hidden">Toggle menu</span></button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="gods.html">Gods &amp; Goddesses</a></li>
+        <li><a href="festivals.html">Festivals &amp; Scriptures</a></li>
+        <li><a href="quiz.html">Quiz &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="container hero">
+      <div class="hero-text">
+        <p class="eyebrow">Welcome to</p>
+        <h1>DharmaVerse</h1>
+        <p>
+          Dharma means righteous living; verse speaks to sacred knowledge.
+          Together, DharmaVerse is a welcoming place to explore Hindu
+          beliefs, deities, festivals, and scripture, one story at a time.
+        </p>
+        <p>
+          Hinduism is one of the world's oldest living traditions, shaped by
+          thousands of years of philosophy, devotion, and celebration. There
+          is no single founder or single text; instead, a family of beliefs
+          shares common threads like dharma (duty), karma (action and its
+          consequences), and moksha (liberation from the cycle of rebirth).
+        </p>
+        <a class="btn" href="gods.html">Meet the deities</a>
+      </div>
+      <div class="hero-wheel">
+        <img src="images/dharma-wheel.svg" alt="Dharma wheel, a twenty-four spoke wheel representing the path of righteous living" width="280" height="280">
+        <nav class="wheel-spokes" aria-label="Quick links">
+          <a href="gods.html">Gods</a>
+          <a href="festivals.html">Festivals</a>
+          <a href="quiz.html">Quiz</a>
+        </nav>
+      </div>
+    </section>
+
+    <img class="lotus-divider" src="images/lotus.svg" alt="" loading="lazy" width="90" height="45">
+
+    <section class="container">
+      <h2 class="section-title">Featured Deity of the Day</h2>
+      <div class="featured-box" id="featured-deity" aria-live="polite">
+        <!-- Filled by scripts.js -->
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Featured Festival</h2>
+      <div class="featured-box" id="featured-festival" aria-live="polite">
+        <!-- Filled by scripts.js -->
+      </div>
+      <p style="text-align:center; margin-top: 1rem;">
+        <button class="btn secondary" id="surprise-btn" type="button">Surprise me with another pair</button>
+      </p>
+    </section>
+
+    <img class="lotus-divider" src="images/lotus.svg" alt="" loading="lazy" width="90" height="45">
+
+    <section class="container">
+      <h2 class="section-title">Where to go from here</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/ganesha.svg" alt="" loading="lazy" width="84" height="84">
+          <h3>Gods &amp; Goddesses</h3>
+          <p>Meet the Trimurti, three of Vishnu's avatars, and other beloved deities, then save your favorite.</p>
+        </article>
+        <article class="card">
+          <img src="images/diya.svg" alt="" loading="lazy" width="84" height="84">
+          <h3>Festivals &amp; Scriptures</h3>
+          <p>Search festivals throughout the year and read teachings from the Bhagavad Gita.</p>
+        </article>
+        <article class="card">
+          <img src="images/om.svg" alt="" loading="lazy" width="84" height="84">
+          <h3>Quiz &amp; Contact</h3>
+          <p>Test what you have learned, track your best score, and send us a message.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <img src="images/lotus.svg" alt="" loading="lazy" width="60" height="30">
+      <p>DharmaVerse &mdash; an educational project for BYU-Idaho WDD 131</p>
+      <p><a href="references.html">References &amp; image credits</a></p>
+      <p>&copy; <span id="year"></span> Dija S. Ramsoedit</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

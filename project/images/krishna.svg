@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emblem representing Krishna: a flute and a peacock feather">
+  <circle cx="100" cy="100" r="94" fill="#FFF8E7" stroke="#F4C542" stroke-width="4"/>
+  <g transform="rotate(-25 100 100)">
+    <rect x="55" y="96" width="90" height="10" rx="5" fill="#EF7F31"/>
+    <circle cx="70" cy="101" r="2.5" fill="#FFF8E7"/>
+    <circle cx="85" cy="101" r="2.5" fill="#FFF8E7"/>
+    <circle cx="100" cy="101" r="2.5" fill="#FFF8E7"/>
+    <circle cx="115" cy="101" r="2.5" fill="#FFF8E7"/>
+    <circle cx="130" cy="101" r="2.5" fill="#FFF8E7"/>
+  </g>
+  <path d="M100 60 Q130 75 122 115 Q112 140 100 150 Q88 140 78 115 Q70 75 100 60 Z" fill="none" stroke="#FE7D9C" stroke-width="4"/>
+  <circle cx="100" cy="98" r="10" fill="#FE7D9C"/>
+</svg>

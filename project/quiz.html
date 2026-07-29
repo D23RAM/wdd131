@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz &amp; Contact | DharmaVerse</title>
+  <meta name="description" content="Test your knowledge of Hinduism with an interactive quiz, then send DharmaVerse a message.">
+  <meta name="author" content="Dija S. Ramsoedit">
+  <link rel="icon" href="images/om.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-bar container" aria-label="Primary">
+      <a class="logo" href="index.html">🌸 DharmaVerse</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰<span class="visually-hidden">Toggle menu</span></button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gods.html">Gods &amp; Goddesses</a></li>
+        <li><a href="festivals.html">Festivals &amp; Scriptures</a></li>
+        <li><a href="quiz.html" aria-current="page">Quiz &amp; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="container">
+      <h1>Test Your Knowledge</h1>
+      <p style="text-align:center;">
+        Eight quick questions covering deities, festivals, and scripture.
+        Your best score is saved on this device so you can try to beat it.
+      </p>
+
+      <div class="quiz-box" id="quiz-box">
+        <p class="quiz-progress" id="quiz-progress"></p>
+        <p id="quiz-question"></p>
+        <div class="quiz-options" id="quiz-options"></div>
+        <button class="btn secondary" id="quiz-restart-btn" type="button" hidden>Try again</button>
+      </div>
+
+      <div class="score-history" id="score-history" aria-live="polite"></div>
+    </section>
+
+    <img class="lotus-divider" src="images/lotus.svg" alt="" loading="lazy" width="90" height="45">
+
+    <section class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p id="visitor-greeting" style="text-align:center;" aria-live="polite"></p>
+
+      <form class="form-grid" id="contact-form" novalidate>
+        <p class="form-status" id="form-status" role="status"></p>
+
+        <div class="form-field">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" name="name" autocomplete="name" required minlength="2">
+        </div>
+
+        <div class="form-field">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="form-field">
+          <label for="contact-subject">Subject</label>
+          <select id="contact-subject" name="subject" required>
+            <option value="">Choose a topic&hellip;</option>
+            <option value="General question">General question</option>
+            <option value="Feedback on the site">Feedback on the site</option>
+            <option value="Request a correction">Request a correction</option>
+            <option value="Something else">Something else</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="5" required minlength="10"></textarea>
+          <p class="form-note">Please share at least a sentence so we understand your question.</p>
+        </div>
+
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <img src="images/lotus.svg" alt="" loading="lazy" width="60" height="30">
+      <p>DharmaVerse &mdash; an educational project for BYU-Idaho WDD 131</p>
+      <p><a href="references.html">References &amp; image credits</a></p>
+      <p>&copy; <span id="year"></span> Dija S. Ramsoedit</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

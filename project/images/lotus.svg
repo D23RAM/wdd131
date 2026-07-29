@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative lotus divider">
+  <g fill="#FE7D9C" opacity="0.9">
+    <path d="M100 90 C70 80 60 55 80 35 C90 55 90 75 100 90 Z"/>
+    <path d="M100 90 C130 80 140 55 120 35 C110 55 110 75 100 90 Z"/>
+    <path d="M100 90 C85 70 85 40 100 20 C115 40 115 70 100 90 Z" fill="#F4C542"/>
+  </g>
+</svg>
