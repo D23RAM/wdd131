@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Review Confirmation</title>
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script>
+        let reviews = Number(localStorage.getItem("reviews")) || 0;
+
+        reviews++;
+
+        localStorage.setItem("reviews", reviews);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector("#reviewCount").textContent = reviews;
+        });
+    </script>
+
+</head>
+
+
+<body>
+
+<header>
+    <h1>Thank You!</h1>
+</header>
+
+
+<main>
+
+    <h2>Your review has been submitted.</h2>
+
+    <p>
+        Total Reviews Completed:
+        <span id="reviewCount"></span>
+    </p>
+
+</main>
+
+
+<footer>
+    <p>&copy; 2026 🇸🇷👩🏻‍💻 Dija S. Ramsoedit 👩🏻‍💻🇸🇷</p>
+        
+        <p id="lastModified"></p>
+         <script>
+    
+        document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
+         </script>
+</footer>
+
+
+</body>
+
+</html>

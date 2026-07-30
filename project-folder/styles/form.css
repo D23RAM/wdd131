@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #222;
+    margin: 0;
+}
+
+
+header {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+label,
+legend {
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: .4rem;
+    border: 1px solid #777;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+fieldset {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+
+fieldset label {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+input[type="submit"] {
+
+    background-color: #12355b;
+    color: white;
+
+    cursor: pointer;
+
+    margin-top: 2rem;
+
+}
+
+
+input[type="submit"]:hover {
+
+    background-color: #1d70a2;
+
+}
+
+
+footer {
+
+    text-align: center;
+
+    background-color: #12355b;
+
+    color:white;
+
+    padding:1rem;
+
+}
+
+
+
+/* Mobile Design */
+
+@media screen and (max-width:600px){
+
+    main {
+        margin:1rem;
+    }
+
+    form {
+        padding:1rem;
+    }
+
+}
