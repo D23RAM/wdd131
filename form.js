@@ -32,3 +32,7 @@ products.forEach(product => {
     productSelect.appendChild(option);
 
 });
+
+
+ document.getElementById("lastModified").textContent =
+        "Last Modified: " + document.lastModified;

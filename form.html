@@ -6,6 +6,7 @@
     <title>Product Review Form</title>
 
     <meta name="description" content="Submit a product review and share your experience.">
+    <meta name="author" content="Dija Ramsoedit">
 
     <link rel="stylesheet" href="form.css">
     <script src="form.js" defer></script>
@@ -20,97 +21,72 @@
 <main>
     <form method="get" action="review.html">
 
+       
         <label for="product">Product Name</label>
         <select id="product" name="product" required>
             <option value="" disabled selected>Select a Product ...</option>
         </select>
 
-
+        
         <fieldset>
             <legend>Overall Rating</legend>
 
-            <label>
-                <input type="radio" id="rating1" name="rating" value="1" required>
-                ☆
-            </label>
+            <input type="radio" id="rating1" name="rating" value="1" required>
+            <label for="rating1">★</label>
 
-            <label>
-                <input type="radio" id="rating2" name="rating" value="2">
-                ☆☆
-            </label>
+            <input type="radio" id="rating2" name="rating" value="2" required>
+            <label for="rating2">★★</label>
 
-            <label>
-                <input type="radio" id="rating3" name="rating" value="3">
-                ☆☆☆
-            </label>
+            <input type="radio" id="rating3" name="rating" value="3" required>
+            <label for="rating3">★★★</label>
 
-            <label>
-                <input type="radio" id="rating4" name="rating" value="4">
-                ☆☆☆☆
-            </label>
+            <input type="radio" id="rating4" name="rating" value="4" required>
+            <label for="rating4">★★★★</label>
 
-            <label>
-                <input type="radio" id="rating5" name="rating" value="5">
-                ☆☆☆☆☆
-            </label>
-
+            <input type="radio" id="rating5" name="rating" value="5" required>
+            <label for="rating5">★★★★★</label>
         </fieldset>
 
-
+        
         <label for="date">Date of Installation</label>
         <input type="date" id="date" name="date" required>
 
-
+        
         <fieldset>
+            <legend>Useful Features (Check all that apply)</legend>
 
-            <legend>Useful Features</legend>
+            <input type="checkbox" id="feature1" name="features" value="Durability">
+            <label for="feature1">Durability</label><br>
 
-            <label>
-                <input type="checkbox" id="feature1" name="features" value="Durability">
-                Durability
-            </label>
+            <input type="checkbox" id="feature2" name="features" value="Ease of Use">
+            <label for="feature2">Ease of Use</label><br>
 
-            <label>
-                <input type="checkbox" id="feature2" name="features" value="Ease of Use">
-                Ease of Use
-            </label>
+            <input type="checkbox" id="feature3" name="features" value="Performance">
+            <label for="feature3">Performance</label><br>
 
-            <label>
-                <input type="checkbox" id="feature3" name="features" value="Performance">
-                Performance
-            </label>
-
-            <label>
-                <input type="checkbox" id="feature4" name="features" value="Design">
-                Design
-            </label>
-
+            <input type="checkbox" id="feature4" name="features" value="Design">
+            <label for="feature4">Design</label>
         </fieldset>
 
-
+     
         <label for="review">Written Review</label>
         <textarea id="review" name="review" rows="5"></textarea>
 
-
+        
         <label for="username">Your Name</label>
         <input type="text" id="username" name="username">
 
-
+        
         <input type="submit" value="Submit Review">
 
     </form>
 </main>
 
-
 <footer>
-   <p>&copy; 2026 🇸🇷👩🏻‍💻 Dija S. Ramsoedit 👩🏻‍💻🇸🇷</p>
-        
-        <p id="lastModified"></p>
-         <script>
-    
-        document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
-         </script>
+    <p>&copy; 2026 🇸🇷👩🏻‍💻 Dija Ramsoedit 👩🏻‍💻🇸🇷</p>
+    <p id="lastModified"></p>
 </footer>
+
 
 
 </body>
